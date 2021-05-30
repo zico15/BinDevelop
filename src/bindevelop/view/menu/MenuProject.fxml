@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="200.0" prefHeight="500.0" prefWidth="200.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bindevelop.view.menu.MenuProjectController">
+    <stylesheets>
+        <URL value="@/bindevelop/view/css/dark-theme.css" />
+    </stylesheets>
+   <children>
+      <TreeView fx:id="treeViewProjct" layoutX="-14.0" prefHeight="200.0" prefWidth="200.0" styleClass="panel-dark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0" />
+   </children>
+</AnchorPane>

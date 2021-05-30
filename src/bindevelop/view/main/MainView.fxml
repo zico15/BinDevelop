@@ -38,38 +38,38 @@
       </AnchorPane>
       <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
          <left>
-            <AnchorPane prefHeight="368.0" style="-fx-background-color: #B2B2B2;" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="368.0" styleClass="panel-dark" BorderPane.alignment="CENTER">
                <children>
-                  <VBox layoutX="-17.0" layoutY="47.0" maxWidth="50.0" minWidth="50.0" prefHeight="200.0" prefWidth="50.0" styleClass="panel-dark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <VBox layoutX="-17.0" layoutY="47.0" maxWidth="50.0" minWidth="50.0" prefHeight="200.0" prefWidth="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
-                        <Button mnemonicParsing="false" styleClass="buttonMenu">
+                        <Button fx:id="button_menu_1" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonMenu">
                            <VBox.margin>
-                              <Insets top="50.0" />
+                              <Insets top="30.0" />
                            </VBox.margin>
                         </Button>
-                        <Button mnemonicParsing="false" text="Button">
-                           <VBox.margin>
-                              <Insets top="20.0" />
-                           </VBox.margin>
-                        </Button>
-                        <Button mnemonicParsing="false" text="Button">
+                        <Button fx:id="button_menu_2" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonOpcao">
                            <VBox.margin>
                               <Insets top="20.0" />
                            </VBox.margin>
                         </Button>
-                        <Button mnemonicParsing="false" text="Button">
+                        <Button fx:id="button_menu_3" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonUI">
                            <VBox.margin>
                               <Insets top="20.0" />
                            </VBox.margin>
                         </Button>
-                        <Button mnemonicParsing="false" text="Button">
+                        <Button fx:id="button_menu_4" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonProject">
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="button_menu_5" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonResouce">
                            <VBox.margin>
                               <Insets top="20.0" />
                            </VBox.margin>
                         </Button>
                      </children>
                   </VBox>
-                  <AnchorPane prefHeight="200.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0" />
+                  <AnchorPane fx:id="menu_panel" prefHeight="200.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="0.0" />
                </children>
             </AnchorPane>
          </left>
