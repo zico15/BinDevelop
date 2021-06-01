@@ -25,6 +25,7 @@ and open the template in the editor.
     -fx-fill: -fx-primarytext;
 }
 
+/* button */
 .button:hover{
      -fx-opacity: 1;
 }
@@ -404,6 +405,7 @@ and open the template in the editor.
     -fx-text-fill: black;
 }
 
+/* tree-view  */
 .tree-view, .tree-cell {
     -fx-background-color: derive(-fx-primary, -30%);
     -fx-text-fill: white ;
