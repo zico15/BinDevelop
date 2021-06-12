@@ -19,7 +19,7 @@
          <left>
             <AnchorPane prefHeight="368.0" styleClass="panel-dark" BorderPane.alignment="CENTER">
                <children>
-                  <VBox layoutX="-17.0" layoutY="47.0" maxWidth="50.0" minWidth="50.0" prefHeight="200.0" prefWidth="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <VBox layoutX="-17.0" layoutY="47.0" maxWidth="50.0" minWidth="50.0" prefHeight="200.0" prefWidth="50.0" styleClass="panel-dark" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Button fx:id="button_menu_1" mnemonicParsing="false" prefHeight="40.0" prefWidth="50.0" styleClass="buttonMenu">
                            <VBox.margin>

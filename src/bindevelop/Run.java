@@ -21,11 +21,13 @@ import javafx.stage.Stage;
 public class Run extends Application {
     
     
+    public static final String VERSAO = "Pre-alpha: 0.01";
     public static Run system;
     @Override
     public void start(Stage stage) throws Exception {
         system = this;
-        Parent root = FXMLLoader.load(getClass().getResource("view/main/MainView.fxml"));    
+        stage.setTitle("BinDevelop - "+VERSAO);
+        Parent root = FXMLLoader.load(getClass().getResource("view/main2/MainView.fxml"));    
         Scene scene = new Scene(root);                  
         stage.setScene(scene);
         //WindowsView.setViewController(stage); 

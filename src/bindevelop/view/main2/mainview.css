@@ -131,6 +131,9 @@ and open the template in the editor.
 .settings-tab .tab-header-background{
     -fx-background-color: derive(-fx-primary, -50%);
 }
+.panel-tab-dark{
+    -fx-background-color: #17181B;
+}
 
 .panel-dark{
     -fx-background-color: derive(-fx-primary, -30%);
@@ -460,5 +463,39 @@ and open the template in the editor.
 .tab:selected .focus-indicator {
     -fx-focus-color: transparent;
     -fx-border-color: transparent;
+}
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * SplitPane                                                                   *
+ *                                                                             *
+ ******************************************************************************/
+.split-pane > .split-pane-divider {
+       -fx-padding: 0 0 0 0; /* 0 3 0 3 */
+}
+/* horizontal the two nodes are placed to the left/right of each other. */
+.split-pane:horizontal > .split-pane-divider {
+   -fx-border-color: derive(-fx-primary, -30%);
+   -fx-background-color: derive(-fx-primary, -30%);
+
+}
+
+.split-pane:horizontal > .split-pane-divider:hover {
+   -fx-border-color: #1976D2;
+   -fx-background-color: #1976D2;
+
+}
+/* vertical the two nodes are placed on top of each other. */
+.split-pane:vertical > .split-pane-divider {
+   -fx-border-color: derive(-fx-primary, -30%);
+   -fx-background-color: derive(-fx-primary, -30%);
+  
+}/* vertical the two nodes are placed on top of each other. */
+.split-pane:vertical > .split-pane-divider:hover {
+   -fx-border-color: #1976D2;
+   -fx-background-color: #1976D2;
+
 }
 
