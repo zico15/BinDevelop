@@ -283,6 +283,7 @@ and open the template in the editor.
     -fx-background-color: -fx-secondary;
     -fx-text-fill: -fx-primary;
     -fx-background-insets: 0;
+
 }
 .table-row-cell:selected .table-cell{
     -fx-text-fill: -fx-primary;
@@ -497,5 +498,46 @@ and open the template in the editor.
    -fx-border-color: #1976D2;
    -fx-background-color: #1976D2;
 
+}
+
+.titled-pane {
+    -fx-text-fill: rgb(0,100,157);
+       -fx-color: #FF0000;
+ 
+}
+.titled-pane:focused {
+    -fx-color: -fx-base;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.titled-pane > .title {
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: rgb(0,100,157);
+    -fx-font-weight: bold;
+}
+titled-pane > .title  > .label{
+    -fx-text-fill: rgb(0,100,157);
+    -fx-font-weight: bold;
+}
+.titled-pane:focused > .title {
+    -fx-color: rgb(0,100,157); 
+    -fx-text-fill: white;
+}
+.titled-pane > .title:hover {
+    -fx-color: lightgrey;
+}
+.titled-pane > * > * > AnchorPane {
+    -fx-padding: 0px ;
+}
+
+.titled-pane > .content > * {
+    -fx-padding: 0px;
+    
 }
 
